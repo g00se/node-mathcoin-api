@@ -1,19 +1,19 @@
-# node-papergame-api
-PaperGame Node js package
+# mathcoin-api
+MathCoin API Node js package
 
 
-Создать апи ключ - https://m.vk.com/app7361871#create_merchant
+Создать апи ключ - https://m.vk.com/app6995668#create_merchant
 
 Установить
 ```javascript
-npm i node-papergame-api
+npm i mathcoin-api
 ```
 
 
 Использование
 ```javascript
-const PaperApi = require ('node-papergame-api');
-const api = new PaperApi('апи ключ','vk id бота');
+const MathCoinAPI = require ('mathcoin-api');
+const api = new MathCoinAPI('апи ключ','vk id бота');
 ```
 
 Функции
@@ -46,7 +46,7 @@ if(resp.length>0){
     console.log('Получен баланс: '+score);
   });
 ```
-# Отправить рулоны
+# Отправить коины
 
 ```javascript
 api.send(1234, 10000, (res)=>{
