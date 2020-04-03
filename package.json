@@ -1,18 +1,26 @@
 {
-  "name": "node-papergame-api",
-  "version": "1.0.3",
-  "description": "Papergame api wrapper",
+  "name": "mathcoin-api",
+  "version": "1.0.1",
+  "description": "MathCoin Api Wrapper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g00se/node-mathcoin-api.git"
+  },
   "keywords": [
-    "papergame",
-    "vk"
+    "mathcoin",
+    "vk",
+    "api"
   ],
-  "author": "Mikhail (@g00se)",
+  "author": "Mikahil (g00se)",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/g00se/node-papergame-api/",
+  "bugs": {
+    "url": "https://github.com/g00se/node-mathcoin-api/issues"
+  },
+  "homepage": "https://github.com/g00se/node-mathcoin-api#readme",
   "dependencies": {
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
